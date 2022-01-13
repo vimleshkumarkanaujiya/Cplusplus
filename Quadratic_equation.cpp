@@ -1,6 +1,6 @@
-#include<iostream>
-#include<cmath>
+#include<bits/stdc++.h>
 using namespace std;
+
 int main(){
 	float a,b,c,x1,x2,discriminant,realPart,imaginaryPart;
 	cout<<"Enter the coefficients \n";
