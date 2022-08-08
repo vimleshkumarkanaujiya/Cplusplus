@@ -1,4 +1,3 @@
 # C++
-These are the basic programs for beginners. <hr>
-It is advised to understand these concepts before moving to the company-level questions. <hr>
-You can start competitive programming after completing these programs.
+These are programs I uploaded while prepring for strong hold on Data Structures and Algorithms . <hr>
+I had to practise these to avoid misconception and gain experience to be able to solve more problems.
