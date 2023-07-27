@@ -1,6 +1,6 @@
 # C++
-These are programs I uploaded to get a strong hold of Data Structures and Algorithms . <hr>
-I had to practise these to avoid misconception and gain experience to be able to solve more problems.
+These are programs I uploaded to get an understanding of data structures and algorithms. <hr>
+I had to practice these to avoid misconceptions and gain experience to be able to solve more problems.
 
 
 <h2>C++ High Frequnecy Topics</h2>
@@ -32,3 +32,18 @@ Move semantics and rvalue references introduced in C++11 enable more efficient r
 Stay updated with modern C++ features introduced in recent language standards (C++11, C++14, C++17, C++20). This includes features like lambda expressions, range-based for loops, auto type inference, constexpr, structured bindings, and more. Understand how these features improve code readability, expressiveness, and performance.
 
 It's worth noting that the above topics represent a subset of essential areas in C++. To excel in interviews and professional C++ development, it's crucial to have a comprehensive understanding of the language, its idioms, and best practices. Additionally, understanding memory management, performance optimization, and debugging techniques will further strengthen your skills as a C++ developer.
+# C++ Memory
+In C++, memory is divided into two parts `Stack` and `Queue`
+## Stack
+Variables created at compile time are stored in the Stack.<br>
+A Stack has a fixed size determined by the computer we are using.<br>
+When the variable is no longer used, the Stack is released and freed to be used. <br>
+Function Arguments are stored on the Stack. <br>
+The return location is also stored on the Stack. <hr>
+## Heap
+The memory not used by the OS or programs is called Heap. <br>
+This space can be used for dynamic variable creation. <br>
+The `new` operator is used to allocate memory dynamically. <br>
+This returns the address of the space stored in a pointer. <br>
+The `delete` operator is used to release the memory created using the `new` operator. <br>
+
